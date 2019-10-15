@@ -1,0 +1,11 @@
+<mat-accordion *ngIf="posts && posts.length>0">
+  <mat-expansion-panel *ngFor="let post of posts;let i=index">
+    <mat-expansion-panel-header>
+      <h5>{{post.title}}</h5>
+    </mat-expansion-panel-header>
+    <div class="d-flex flex-row">
+      <p class="flex-grow-1">{{post.content}}</p>
+      <i class="justify-content-end fa fa-trash" (click)="deletePost(i)" aria-hidden="true"></i>
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>
