@@ -1,6 +1,6 @@
 # Mean Stack Application
 
-This project a mean Stack application for user post
+This project is a MEAN Stack application for user post
 
 ## Run on Stackblitz
 
