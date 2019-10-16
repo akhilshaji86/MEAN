@@ -1,6 +1,7 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {PostModel} from "../post-model";
-
+import {Utility} from '../../util/util'
+import {NgForm} from "@angular/forms";
 @Component({
   selector: 'app-post-create',
   templateUrl: './post-create.component.html',
@@ -15,20 +16,22 @@ export class PostCreateComponent implements OnInit {
   }
 
   postTitle: string;
+  utility = new Utility();
 
   ngOnInit() {
   }
 
-  onAddPost() {
+  onAddPost(postForm: NgForm) {
+    if(postForm.invalid)return;
     this.posts.push({
-      title: this.postTitle,
-      content: this.addedPost
+      title: postForm.value.title,
+      content: postForm.value.postInput
     });
-    this.clearFeilds();
+    this.clearFields(postForm);
     this.postAddedEvent.emit(this.posts);
   }
 
-  private clearFeilds() {
-    this.postTitle = this.addedPost = '';
+  private clearFields(postForm) {
+    postForm.reset();
   }
 }
