@@ -1,13 +1,15 @@
 <mat-card>
   <form (submit)="onAddPost(postForm)" #postForm="ngForm">
     <mat-form-field class="w-25 mb-2">
-      <input required type="text" matInput placeholder="Post title" name="title" [(ngModel)]="postTitle" #title ="ngModel">
-      <mat-error *ngIf="title.invalid">Title is required</mat-error>
+      <input [required]=" title.touched" type="text" matInput placeholder="Post title" name="title"
+             [(ngModel)]="postTitle" #title="ngModel">
+      <mat-error *ngIf="title.invalid && title.touched">Title is required</mat-error>
     </mat-form-field>
     <mat-form-field class=" mb-2">
-    <textarea  required [(ngModel)]="addedPost" cols="30" [placeholder]="!addedPost?'Enter your content':''" id="" matInput
-              name="postInput" rows="6"  #content ="ngModel"></textarea>
-      <mat-error *ngIf="content.invalid">Content is required</mat-error>
+    <textarea [required]="content.touched" [(ngModel)]="addedPost" cols="30"
+              [placeholder]="!addedPost?'Enter your content':''" id="" matInput
+              name="postInput" rows="6" #content="ngModel"></textarea>
+      <mat-error *ngIf="content.invalid && content.touched">Content is required</mat-error>
     </mat-form-field>
     <button [disabled]="utility.isNullOrUndefined(postTitle )|| utility.isNullOrUndefined(addedPost)"
             type="submit" color="accent" mat-raised-button>Save post

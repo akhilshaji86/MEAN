@@ -27,11 +27,11 @@ export class PostCreateComponent implements OnInit {
       title: postForm.value.title,
       content: postForm.value.postInput
     });
-    this.clearFields(postForm);
     this.postAddedEvent.emit(this.posts);
+    this.clearFields(postForm);
   }
 
   private clearFields(postForm) {
-    postForm.reset();
+    postForm.form.reset();
   }
 }
