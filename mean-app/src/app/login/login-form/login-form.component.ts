@@ -1,5 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {FormControl, FormGroup} from "@angular/forms";
+import {LoginService} from "../login-service";
+import {LoginInterface} from "../login-interface";
 
 @Component({
   selector: 'app-login-form',
@@ -10,7 +12,7 @@ export class LoginFormComponent implements OnInit {
   @Input() error: string | null;
 
   @Output() submitEM = new EventEmitter();
-  constructor() { }
+  constructor(private loginService:LoginService) { }
 
   ngOnInit() {
   }
@@ -22,6 +24,8 @@ export class LoginFormComponent implements OnInit {
   submit() {
     if (this.form.valid) {
       this.submitEM.emit(this.form.value);
+
+      this.loginService.login((<LoginInterface>this.form.value));
     }
   }
 

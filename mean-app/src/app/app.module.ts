@@ -12,7 +12,13 @@ import {LoginComponent} from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { LoginFormComponent } from './login/login-form/login-form.component';
 import { PostComponent } from './post/post.component';
+import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
+import {FakeBackend} from "./fake-backend";
+import {LoginService} from "./login/login-service";
 
+export const httpInterceptorProviders = [
+  { provide: HTTP_INTERCEPTORS, useClass: FakeBackend, multi: true },
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,17 +28,21 @@ import { PostComponent } from './post/post.component';
     LoginComponent,
     PagenotfoundComponent,
     LoginFormComponent,
-    PostComponent
+    PostComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatExpansionModule, ReactiveFormsModule
   ],
-  providers: [],
+  providers: [httpInterceptorProviders,LoginService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
 }
+
+

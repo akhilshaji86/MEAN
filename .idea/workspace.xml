@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13d96c11-6575-4fde-8601-beb9b5f6e115" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mean-app/src/app/fake-backend.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mean-app/src/app/login/login-interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mean-app/src/app/login/login-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mean-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/mean-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mean-app/src/app/login/login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mean-app/src/app/login/login.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mean-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,94 +28,106 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/package.json">
+        <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/angular.json">
+        <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-interface.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mean-app/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mean-app/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/core/core.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="638" column="25" selection-start-line="638" selection-start-column="25" selection-end-line="638" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/src/app/api.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="96" selection-start-column="96" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login.component.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/material/card/typings/card.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mean-app/src/app/app-routing.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="187">
+              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="49" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/common/http/http.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="3400" column="30" selection-start-line="3400" selection-start-column="30" selection-end-line="3400" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mean-app/src/app/fake-backend.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mean-app/node_modules/rxjs/src/internal/operators/mergeMap.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -130,6 +148,7 @@
       <find>mat-card-title</find>
       <find>font</find>
       <find>background</find>
+      <find>error</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,33 +161,42 @@
         <option value="$PROJECT_DIR$/mean-app/tsconfig.json" />
         <option value="$PROJECT_DIR$/mean-app/server.ts" />
         <option value="$PROJECT_DIR$/mean-app/src/app/header/header.component.html" />
-        <option value="$PROJECT_DIR$/mean-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.ts" />
         <option value="$PROJECT_DIR$/mean-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/mean-app/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/mean-app/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.ts" />
         <option value="$PROJECT_DIR$/mean-app/src/app/post/post.component.html" />
         <option value="$PROJECT_DIR$/mean-app/src/app/post/post.component.ts" />
         <option value="$PROJECT_DIR$/mean-app/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/mean-app/src/app/post/post.component.scss" />
         <option value="$PROJECT_DIR$/mean-app/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/mean-app/angular.json" />
-        <option value="$PROJECT_DIR$/mean-app/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.scss" />
-        <option value="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.html" />
         <option value="$PROJECT_DIR$/mean-app/src/app/api.service.ts" />
-        <option value="$PROJECT_DIR$/mean-app/package.json" />
         <option value="$PROJECT_DIR$/mean-app/src/app/login/login.component.scss" />
         <option value="$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.html" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.scss" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/login/fake-backend.ts" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-interface.ts" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/login/login-interface.ts" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.ts" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/util/util.ts" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.html" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/fake-backend.ts" />
+        <option value="$PROJECT_DIR$/mean-app/package.json" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/login/login-service.ts" />
+        <option value="$PROJECT_DIR$/mean-app/src/app/app-routing.module.ts" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -191,7 +219,14 @@
               <item name="MEAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="MEAN" type="462c0819:PsiDirectoryNode" />
               <item name="mean-app" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="mean-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,6 +251,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shajia\Documents\GitHub\MEAN\mean-app\src\app" />
+      <recent name="C:\Users\shajia\Documents\GitHub\MEAN\mean-app\src\app\login" />
       <recent name="C:\Users\shajia\Documents\GitHub\MEAN\mean-app" />
     </key>
   </component>
@@ -324,7 +361,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570864819150</updated>
       <workItem from="1570864820279" duration="18000" />
-      <workItem from="1578310382139" duration="21219000" />
+      <workItem from="1578310382139" duration="37335000" />
     </task>
     <task id="LOCAL-00001" summary="post login">
       <created>1578468837644</created>
@@ -337,7 +374,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21237000" />
+    <option name="totallyTimeSpent" value="37353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,24 +386,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" sideWeight="0.4006462" side_tool="true" visible="true" weight="0.24973656" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5993538" visible="true" weight="0.24973656" />
+      <window_info id="npm" sideWeight="0.40132305" side_tool="true" visible="true" weight="0.25185972" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.598677" visible="true" weight="0.25185972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50165015" side_tool="true" weight="0.25185972" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3351709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33186328" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32394367" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.323043" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2337376" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -416,16 +453,6 @@
     <entry file="file://$PROJECT_DIR$/mean-app/server.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mean-app/src/app/header/header.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -452,26 +479,12 @@
     <entry file="file://$PROJECT_DIR$/mean-app/src/app/app.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#73#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/forms/forms.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="2494" column="4" selection-start-line="2494" selection-start-column="4" selection-end-line="2494" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -513,23 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_fontawesome-free-5.12.0-web.zip/fontawesome-free-5.12.0-web/css/all.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -537,16 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,20 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -592,24 +564,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="96" selection-start-column="96" selection-end-column="96" />
+          <caret column="30" selection-start-column="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/pagenotfound/pagenotfound.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/forms/forms.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="1769" column="4" selection-start-line="1769" selection-start-column="4" selection-end-line="1769" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/node_modules/rxjs/src/internal/config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/util/util.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/router/router.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="1922" column="13" selection-start-line="1922" selection-start-column="13" selection-end-line="1922" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/core/core.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="638" column="25" selection-start-line="638" selection-start-column="25" selection-end-line="638" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/node_modules/rxjs/src/internal/operators/mergeMap.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-form/login-form.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/node_modules/@angular/common/http/http.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3400" column="30" selection-start-line="3400" selection-start-column="30" selection-end-line="3400" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/fake-backend.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/login/login-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean-app/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
