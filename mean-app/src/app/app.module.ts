@@ -15,6 +15,7 @@ import { PostComponent } from './post/post.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {FakeBackend} from "./fake-backend";
 import {LoginService} from "./login/login-service";
+import {LoginValidate} from "./login/login-validate";
 
 export const httpInterceptorProviders = [
   { provide: HTTP_INTERCEPTORS, useClass: FakeBackend, multi: true },
@@ -39,7 +40,7 @@ export const httpInterceptorProviders = [
     HttpClientModule,
     MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatExpansionModule, ReactiveFormsModule
   ],
-  providers: [httpInterceptorProviders,LoginService],
+  providers: [httpInterceptorProviders,LoginService,LoginValidate],
   bootstrap: [AppComponent]
 })
 export class AppModule {

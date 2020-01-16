@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output, ViewChild} from '@angular/core';
 import {FormControl, FormGroup} from "@angular/forms";
 import {LoginService} from "../login-service";
 import {LoginInterface} from "../login-interface";
@@ -9,7 +9,7 @@ import {LoginInterface} from "../login-interface";
   styleUrls: ['./login-form.component.scss']
 })
 export class LoginFormComponent implements OnInit {
-  @Input() error: string | null;
+
 
   @Output() submitEM = new EventEmitter();
   constructor(private loginService:LoginService) { }
@@ -25,7 +25,6 @@ export class LoginFormComponent implements OnInit {
     if (this.form.valid) {
       this.submitEM.emit(this.form.value);
 
-      this.loginService.login((<LoginInterface>this.form.value));
     }
   }
 
